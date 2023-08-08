@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    margin:0;
+}
+.top-container {
+    background-color: #f1f1b9;
+    color: 	#daa520;
+    /*positions relative to static*/
+    position: relative;
+    padding-top: 100px;  
+}
+.top-cloud {
+    /*positions as per top-container*/
+    position: absolute;
+    right: 250px;
+    top: 40px;
+}
+.title-text {
+    display: block;
+}
+h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 6em;
+    /*margin - top righ bottom left*/
+    margin: 15px auto auto auto ;
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: 	#daa520;
+    font-size: 2.5em;
+}
+.pro {
+    text-decoration: underline;
+    font-size: 1em;
+}
+.bottom-cloud {
+    position: absolute;
+    margin-top: 15px;
+    left: 250px;
+    top: 350px;
+}
+
+
+.middle-container {
+    margin-top: #f1f1b9 50px;
+    /* border: #f1f1b9 solid 30px; */
+    padding: 50px;
+}
+.profile {
+    display: block;
+}
+.myimage {
+    height: 150px;
+    border-radius: 50%;
+    border: #daa520 groove 10px;
+}
+.middle-content {
+    font-size: 1.25rem;
+    font-family: 'Edu SA Beginner', cursive;
+}
+hr {
+    border: #acdcde dotted 10px;
+    width: 4%;
+    border-bottom: none;
+    margin-top: 40px;
+}
+.contact-div {
+    margin-top: 50px;
+}
+.contact-button {
+    text-decoration: none;
+    background-color: #11cdd4;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.bottom-container {
+    background-color: #f1f1b9;
+    padding: 50px 0px 50px 0px;
+}
+.footer-link {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color:#daa520;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+.foot-note {
+    font-family: 'Dancing Script', cursive;
+    color:black;
+    font-size: 20px;
+}
